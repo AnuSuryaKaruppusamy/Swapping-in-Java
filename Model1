@@ -1,1 +1,16 @@
 
+package Sample;
+public class Swapping {
+	public static void main(String[] args) {
+		int a, b;
+		int temp;
+		a = 10;
+		b = 20;
+		temp = a;
+		a = b;
+		b = temp;
+		System.out.println("Enter the a value:" + a);
+		System.out.println("Enter the b value:" + b);   
+	}
+	
+}	
